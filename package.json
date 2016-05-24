@@ -1,6 +1,6 @@
 {
   "name": "dummy_viz",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "An awesome Kibana plugin",
   "main": "index.js",
   "scripts": {
