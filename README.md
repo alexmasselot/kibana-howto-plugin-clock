@@ -1,25 +1,11 @@
 # dummy_viz
 
-> An awesome Kibana plugin
+> a simple clock plugin, shamelessly inspired from https://www.timroes.de/2015/12/02/writing-kibana-4-plugins-simple-visualizations/
 
 ---
 
-## development
+## Deployment
 
-See the [kibana contributing guide](https://github.com/elastic/kibana/blob/master/CONTRIBUTING.md) for instructions setting up your development environment. Once you have completed that, use the following npm tasks.
-
-<dl>
-  <dt><code>npm start</code></dt>
-  <dd>Start kibana and have it include this plugin</dd>
-
-  <dt><code>npm run build</code></dt>
-  <dd>Build a distributable archive</dd>
-
-  <dt><code>npm run test:browser</code></dt>
-  <dd>Run the browser tests in a real web browser</dd>
-
-  <dt><code>npm run test:server</code></dt>
-  <dd>Run the server tests using mocha</dd>
-</dl>
-
-For more information about any of these commands run `npm run ${task} -- --help`.
+    npm build
+    
+    and bin/kibana plugin --install -u url/to/build/*.zip

@@ -3,7 +3,7 @@ module.exports = function(kibana) {
   return new kibana.Plugin({
      uiExports: {
         visTypes: [
-          'plugins/dummy_viz/clock'
+          'plugins/simple_clock/clock'
         ]
       }
   });

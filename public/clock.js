@@ -3,10 +3,10 @@
 define(function(require) {
 
     // Include our custom CSS (LESS also works)
-    require('plugins/dummy_viz/clock.css');
+    require('plugins/simple_clock/clock.css');
 
     // Create an Angular module for this plugin
-    var module = require('ui/modules').get('dummy_viz');
+    var module = require('ui/modules').get('simple_clock');
     // Add a controller to this module
     module.controller('ClockController', function($scope, $timeout) {
 
@@ -30,9 +30,9 @@ define(function(require) {
             icon: 'fa-clock-o', // the class of the font awesome icon for this
             description: 'Add a digital clock to your dashboards.', // description shown to the user
             requiresSearch: false, // Cannot be linked to a search
-            template: require('plugins/dummy_viz/clock.html'), // Load the template of the visualization
+            template: require('plugins/simple_clock/clock.html'), // Load the template of the visualization
             params: {
-                editor: require('plugins/dummy_viz/clock-editor.html'), // Use this HTML as an options editor for this vis
+                editor: require('plugins/simple_clock/clock-editor.html'), // Use this HTML as an options editor for this vis
                 defaults: { // Set default values for paramters (that can be configured in the editor)
                     format: 'HH:mm:ss'
                 }
