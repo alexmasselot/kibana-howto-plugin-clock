@@ -12,7 +12,7 @@
     "postinstall": "plugin-helpers postinstall"
   },
   "kibana": {
-        "version": "5.2"
+        "version": "5.2.2"
     },
   "devDependencies": {
     "@elastic/eslint-config-kibana": "0.0.2",
