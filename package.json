@@ -1,6 +1,6 @@
 {
   "name": "simple_clock",
-  "version": "0.1.8",
+  "version": "5.2.2",
   "description": "a simple clock plugin, inspired from https://www.timroes.de/2015/12/02/writing-kibana-4-plugins-simple-visualizations/",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "postinstall": "plugin-helpers postinstall"
   },
   "kibana": {
-        "version": "5.2"
+        "version": "5.2.2"
     },
   "devDependencies": {
     "@elastic/eslint-config-kibana": "0.0.2",
