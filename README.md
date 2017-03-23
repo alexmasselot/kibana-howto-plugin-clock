@@ -6,6 +6,6 @@
 
 ## Deployment
 
-    npm build
+    npm run build
     
     and bin/kibana plugin --install -u url/to/build/*.zip

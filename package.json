@@ -11,6 +11,9 @@
     "build": "plugin-helpers build",
     "postinstall": "plugin-helpers postinstall"
   },
+  "kibana": {
+        "version": "5.2"
+    },
   "devDependencies": {
     "@elastic/eslint-config-kibana": "0.0.2",
     "babel-eslint": "4.1.8",
