@@ -18,7 +18,7 @@ define(function(require) {
 
     function ClockProvider(Private) {
         // Load TemplateVisType
-        var TemplateVisType = Private(require('ui/template_vis_type/TemplateVisType'));
+        var TemplateVisType = Private(require('ui/template_vis_type/template_vis_type'));
 
         // Return a new instance describing this visualization
         return new TemplateVisType({
