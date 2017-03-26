@@ -4,3 +4,4 @@ node_modules
 kibana-plugin-test.iml
 
 build/*.zip
+*.iml
